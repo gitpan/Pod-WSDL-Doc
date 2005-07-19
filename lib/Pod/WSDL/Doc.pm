@@ -4,7 +4,7 @@ use warnings;
 
 use Pod::WSDL::AUTOLOAD;
 
-our $VERSION = 0.01;
+our $VERSION = "0.02";
 our @ISA = qw/Pod::WSDL::AUTOLOAD/;
 sub new {
 	my ($pkg, $str) = @_;
